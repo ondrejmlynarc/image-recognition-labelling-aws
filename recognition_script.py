@@ -65,8 +65,8 @@ def intersects(x1, y1, w1, h1, pos):
 
 
 # usage
-bucket = 'imgs-recognition-project'
-photo = 'norali-nayla-eDvG3IO8-Io-unsplash.jpg'
+bucket = 'your-bucket-name'
+photo = 'your-image-file.jpg'
 
 labels = analyze_image(bucket, photo)
 image = download_image_from_s3(bucket, photo)  # Download the image from S3
