@@ -1,8 +1,8 @@
 # Image Labels Generator with AWS Rekognition
 
-![Image of Architecture Diagram](link_to_image)
+![Annotated Image](annotated_image.jpg)
 
-This project allows you to generate descriptive labels for images using  Amazon Rekognition. Upload an image to s3 bucket, and the application will return labels with relevant labels and their confidence scores.
+I completed this project as part of my aws-cloud-journey practise to generate descriptive labels for images using  Amazon Rekognition. Upload an image to s3 bucket, and the application will return labels with relevant labels and their confidence scores.
 
 
 ## Getting Started
@@ -24,6 +24,8 @@ This project allows you to generate descriptive labels for images using  Amazon 
 3. **Create an S3 Bucket**: Create an S3 bucket to store the images you want to analyze.
 
 ## Usage
+
+![Image of Architecture Diagram](architecture_diagram.png)
 
 1. **Upload Image**: Upload the image you want to analyze to your S3 bucket.
 2. **Run the Script**:
