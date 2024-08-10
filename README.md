@@ -32,7 +32,7 @@ I completed this project as part of my aws-cloud-journey practise to generate de
     - Replace placeholders in the Python file with your S3 bucket name and image file name.
     - Execute the Python script:
       ```bash
-      python image_labels_generator.py
+      python recognition_script.py
       ```
 
 ## How it Works
